@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.heading{
+    margin-top: 10px;
+    font-family: cursive;
+}
+.text-center {
+    text-align: center;
+}
+.player1{
+    font-family: Verdana;
+}
+body {
+    background: black;
+}
+.title, .player  {
+    color: white;
+}
+.game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(3, 13vw);
+    grid-template-rows: repeat(3, 13vw);
+
+}
+
+.boxes {
+    border: 2px solid rgb(225 217 0);
+    box-shadow: 2px 2px 30px 5px ;
+    font-size: 9vw;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+}
+
+.tile {
+    color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+.control {
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brr{
+    border-right: 0;
+}
+.brl{
+    border-left: 0;
+}
+.brt{
+    border-top: 0;
+}
+.brb{
+    border-bottom: 0;
+}
+#reset{
+    font-family: Consolas,monaco,monospace ;
+}
+button{
+    background: rgb(55, 255, 0);
+}
+button:hover{
+    transform: translateY(-6px);
+   background: rgb(255, 255, 255);
+    box-shadow: 2px 10px 20px rgb(238, 255, 0);
+}

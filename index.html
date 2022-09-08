@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" >
+  <link rel="shortcut icon" href="tic.png" type="image/x-icon">
+</head>
+<body>
+<div class="main">
+    <div class="heading">
+        <h1 class="title text-center">Tic Tac Toe</h1>
+    </div>
+     <div class="player text-center">
+        <span class="player1">Turn of X</span>
+     </div>
+     <div class="game">
+        <!-- Boxes  -->
+        <div class="container">
+            <div class="boxes brt brl"><span class="tile"></span></div>
+            <div class="boxes brt"><span class="tile"></span></div>
+            <div class="boxes brt brr"><span class="tile"></span></div>
+            <div class="boxes brl"><span class="tile"></span></div>
+            <div class="boxes "><span class="tile"></span></div>
+            <div class="boxes brr"><span class="tile"></span></div>
+            <div class="boxes brl brb"><span class="tile"></span></div>
+            <div class="boxes brb"><span class="tile"></span></div>
+            <div class="boxes brb brr"><span class="tile"></span></div>
+        </div>
+    </div>
+        <div class="control">
+            <button  id="reset" type="reset" onclick="window.location.reload()">Restart</button>
+         </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
