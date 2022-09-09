@@ -82,13 +82,14 @@ button:hover{
 
 @media (max-width:250px){
     .container {
+        margin-top: 5vh;
         background-color: rgb(0, 0, 0);
         display: grid;
         grid-template-columns: repeat(3, 30vw);
         grid-template-rows: repeat(3, 36vw);
     }
-    .title{
-        margin-top: 8vh;
+    .player,.title, #reset{
+        margin-top: 5vh;
     }
      }
 
@@ -106,7 +107,7 @@ button:hover{
             grid-template-columns: repeat(3, 30vw);
             grid-template-rows: repeat(3, 34vw);
         }
-        .player,.title{
+        .player,.title, #reset{
             margin-top: 4vh;
         }
     
@@ -141,4 +142,3 @@ button:hover{
         }
      }
     
-
