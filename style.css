@@ -78,3 +78,29 @@ button:hover{
    background: rgb(255, 255, 255);
     box-shadow: 2px 10px 20px rgb(238, 255, 0);
 }
+
+@media (max-width:300px){
+    .container {
+        background-color: rgb(0, 0, 0);
+        display: grid;
+        grid-template-columns: repeat(3, 30vw);
+        grid-template-rows: repeat(3, 31vw);
+    }
+     }
+    
+     @media (max-width:700px) and (min-width:301px) {
+        .container {
+            background-color: rgb(0, 0, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 21vw);
+            grid-template-rows: repeat(3, 21vw);
+        }
+     }
+     @media (max-width:900px) and (min-width:701px){
+        .container {
+            background-color: rgb(0, 0, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 17vw);
+            grid-template-rows: repeat(3, 17vw);
+        }
+     }
