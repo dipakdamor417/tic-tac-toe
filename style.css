@@ -79,21 +79,33 @@ button:hover{
     box-shadow: 2px 10px 20px rgb(238, 255, 0);
 }
 
-@media (max-width:300px){
-    .container {
-        background-color: rgb(0, 0, 0);
-        display: grid;
-        grid-template-columns: repeat(3, 30vw);
-        grid-template-rows: repeat(3, 31vw);
-    }
-     }
-    
-     @media (max-width:700px) and (min-width:301px) {
+     @media (max-width:350px) and (min-width:250px) {
         .container {
             background-color: rgb(0, 0, 0);
             display: grid;
-            grid-template-columns: repeat(3, 21vw);
-            grid-template-rows: repeat(3, 21vw);
+            grid-template-columns: repeat(3, 30vw);
+            grid-template-rows: repeat(3, 34vw);
+        }
+        .title{
+            margin-top: 8vh;
+        }
+    
+     }
+    
+     @media (max-width:500px) and (min-width:351px) {
+        .container {
+            background-color: rgb(0, 0, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 28vw);
+            grid-template-rows: repeat(3, 31vw);
+        }
+     }
+     @media (max-width:700px) and (min-width:501px) {
+        .container {
+            background-color: rgb(0, 0, 0);
+            display: grid;
+            grid-template-columns: repeat(3, 25vw);
+            grid-template-rows: repeat(3, 26vw);
         }
      }
      @media (max-width:900px) and (min-width:701px){
@@ -104,3 +116,4 @@ button:hover{
             grid-template-rows: repeat(3, 17vw);
         }
      }
+    
