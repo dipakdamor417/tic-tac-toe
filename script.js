@@ -1,5 +1,3 @@
-
-let music = new Audio("music.mp3");
 let audioTurn = new Audio("change.mp3");
 let gameover = new Audio("end.mp3");
 let turn = "X";
