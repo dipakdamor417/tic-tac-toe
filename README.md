@@ -1,3 +1,5 @@
 # Tic-Tac-Toe
 
-live link 🔗: https://dipakdamor417.github.io/tic-tac-toe/index.html
+Live link 🔗: https://dipakdamor417.github.io/tic-tac-toe/index.html
+
+-Basic HTML,CSS,JS Game
